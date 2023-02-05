@@ -3,10 +3,10 @@ import { LinearGradient } from 'expo-linear-gradient';
 import {Text, View, FlatList, StyleSheet} from 'react-native'
 
 function SaveList({route}) {
-  const list = route.params.displayMovies()
+  // const list = route.params.displayMovies()
 
   useEffect(() => {
-    console.log("anna", list)
+    // console.log("anna", list)
   }, [])
  
   return (
